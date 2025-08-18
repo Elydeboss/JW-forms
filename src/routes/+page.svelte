@@ -11,17 +11,19 @@
 {@render children?.()}
 
 <main
-	class="container mx-auto mt-8 p-4 bg-gray-600 w-[600px] h-[400px] flex flex-col justify-center"
+	class="container mx-auto mt-8 p-4 bg-[#222020] w-[550px] h-[400px] flex flex-col justify-center"
 >
 	<div class="h-[1000px] container mt-6">
-		<div class="mx-4 my-4 flex items-center text-white">
+		<div class="mx-4 mb-6 flex items-center text-white">
 			<div class="mr-3 rounded bg-[#3d70b2] py-5 px-2 font-bold">JW.ORG</div>
 			<h1 class="text-2xl font-light">Log In</h1>
 		</div>
 
 		<div class="flex flex-col mx-4">
-			<div class="gap-4 my-4 flex flex-col">
-				<TextInput size="xl" labelText="User name" placeholder="Enter user name..." />
+			<div class="gap-4 mb-2 flex flex-col">
+				<theme theme="g80">
+					<TextInput size="xl" labelText="User name" />
+				</theme>
 			</div>
 			<Link href="https://www.carbondesignsystem.com/" target="_blank" class="text-blue-500 mb-4">
 				forgot password?</Link
@@ -34,13 +36,13 @@
 			</div>
 
 			<!-- Divider OR -->
-			<div class=" text-sm text-black text-center items-center mb-4">
+			<div class=" text-sm text-[#8b8684] text-center items-center mb-4">
 				<span class=" px-3">OR</span>
 			</div>
 
 			<!-- Passkey Button -->
-			<div class="border-[#78a9ff] text-center text-blue-500 items-center mb-8">
-				<Button kind="secondary" class="w-full">Use a Passkey to Log In</Button>
+			<div class=" text-center items-center mb-8">
+				<Button kind="tertiary" class="w-full">Use a Passkey to Log In</Button>
 			</div>
 		</div>
 	</div>

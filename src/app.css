@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* app.css */
+.bx--btn--tertiary {
+	border-color: #78a9ff !important;
+	color: #78a9ff !important;
+}

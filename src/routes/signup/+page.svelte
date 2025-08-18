@@ -6,9 +6,9 @@
 </script>
 
 <main
-	class="container mx-auto mt-8 p-4 bg-gray-600 w-[600px] h-[400px] flex flex-col justify-center"
+	class="container mx-auto mt-8 p-4 bg-gray-600 w-[520px] h-[360px] flex flex-col justify-center"
 >
-	<div class="h-[1000px] container mt-6">
+	<div class="container">
 		<div class="mx-4 my-4 flex items-center text-white">
 			<div class="mr-6 rounded bg-[#3d70b2] py-5 px-2 font-bold">JW.ORG</div>
 			<h1 class="text-2xl font-light">Create Account</h1>
