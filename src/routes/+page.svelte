@@ -21,7 +21,7 @@
 
 		<div class="flex flex-col mx-4">
 			<div class="gap-4 mb-2 flex flex-col">
-				<theme theme="g80">
+				<theme theme="g100">
 					<TextInput size="xl" labelText="User name" />
 				</theme>
 			</div>
