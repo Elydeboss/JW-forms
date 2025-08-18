@@ -6,7 +6,7 @@
 </script>
 
 <main
-	class="container mx-auto mt-8 p-4 bg-gray-600 w-[520px] h-[360px] flex flex-col justify-center"
+	class="container mx-auto mt-8 p-4 bg-[#222020] w-[520px] h-[360px] flex flex-col justify-center"
 >
 	<div class="container">
 		<div class="mx-4 my-4 flex items-center text-white">
@@ -16,7 +16,7 @@
 
 		<div class="flex flex-col mx-4">
 			<div class="gap-4 my-4 flex flex-col">
-				<TextInput size="xl" labelText="User name" placeholder="Enter user name..." />
+				<TextInput size="xl" labelText="User name" />
 			</div>
 
 			<!--button-->

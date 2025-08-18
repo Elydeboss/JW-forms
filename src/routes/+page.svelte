@@ -50,7 +50,7 @@
 
 <div class="container mx-auto mt-8 p-4 flex flex-col items-center justify-center">
 	<div class="mb-4">
-		<h4>do you need an account?</h4>
+		<h4>Do you need an account?</h4>
 	</div>
 	<div>
 		<a href="/signup">
