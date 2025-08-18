@@ -35,3 +35,8 @@
 		</div>
 	</div>
 </main>
+
+<div class="gap-2 mx-auto mt-8 p-4 flex items-center justify-center">
+	<h4>Already have an account?</h4>
+	<Link href="https://jw-forms-elijah-s-projects-87d17860.vercel.app/">Log In</Link>
+</div>
