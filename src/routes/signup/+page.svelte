@@ -25,6 +25,13 @@
 			<div class="text-center items-center px-12 py-4">
 				<Button class="w-full">Next</Button>
 			</div>
+
+			<p>
+				This site is protected by reCAPTCHA and the Google <Link
+					href="https://www.carbondesignsystem.com/">Privacy Policy</Link
+				> and <Link href="https://www.carbondesignsystem.com/">Terms of Service</Link>
+				apply.
+			</p>
 		</div>
 	</div>
 </main>
