@@ -11,17 +11,17 @@
 {@render children?.()}
 
 <main
-	class="container mx-auto mt-8 p-4 bg-[#222020] w-[550px] h-[400px] flex flex-col justify-center"
+	class="container mt-6 mb-4 sm:mt-20 mx-auto bg-[#262424] w-full sm:max-w-[500px] flex flex-col justify-center"
 >
-	<div class="h-[1000px] container mt-6">
-		<div class="mx-4 mb-6 flex items-center text-white">
+	<div class="container p-8 gap-y-8 flex flex-col">
+		<div class="flex items-center text-white">
 			<div class="mr-3 rounded bg-[#3d70b2] py-5 px-2 font-bold">JW.ORG</div>
 			<h1 class="text-2xl font-light">Log In</h1>
 		</div>
 
-		<div class="flex flex-col mx-4">
+		<div class="flex flex-col">
 			<div class="gap-4 mb-2 flex flex-col">
-				<theme theme="g100">
+				<theme theme="g80">
 					<TextInput size="xl" labelText="User name" />
 				</theme>
 			</div>
@@ -31,30 +31,30 @@
 			<!--button-->
 			<Theme theme="g100" />
 
-			<div class="text-center items-center px-12 py-4">
-				<Button class="w-full">Next</Button>
-			</div>
+			<div class="flex justify-center my-4 bg-blue-500 p-4">Next</div>
 
 			<!-- Divider OR -->
-			<div class=" text-sm text-[#8b8684] text-center items-center mb-4">
+			<div class="flex justify-center text-sm text-[#8b8684]">
 				<span class=" px-3">OR</span>
 			</div>
 
 			<!-- Passkey Button -->
-			<div class=" text-center items-center mb-8">
-				<Button kind="tertiary" class="w-full">Use a Passkey to Log In</Button>
-			</div>
+
+			<button
+				class="flex my-4 bg-[#22202000] p-4 cursor-pointer justify-center items-center text-center border-2 border-blue-500 w-full"
+			>
+				Use a Passkey to Log In
+			</button>
 		</div>
 	</div>
 </main>
 
-<div class="container mx-auto mt-8 p-4 flex flex-col items-center justify-center">
+<div class="pb-4 flex flex-col items-center justify-center">
 	<div class="mb-4">
 		<h4>Do you need an account?</h4>
 	</div>
-	<div>
-		<a href="/signup">
-			<Button kind="secondary" class="w-full">Create One</Button>
-		</a>
-	</div>
+
+	<a href="/signup">
+		<Button kind="secondary" class="w-full">Create New Account</Button>
+	</a>
 </div>
